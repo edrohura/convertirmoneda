@@ -1,0 +1,88 @@
+/* Estilos específicos del componente CurrencyConverter */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #71c5e8; /* Color de fondo blanco */
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* Azul brillante para el título */
+}
+
+h3 {
+    color: #00a5b5; /* Color sólido para textos */
+    text-align: center;
+}
+
+h4{
+    color: #e03e52; /* Color sólido para textos */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label{
+    color: #00a5b5;
+}
+
+input[type="number"],
+select {
+    border: 1px solid #00a5b5;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra en los inputs */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #dc3545; /* Color rojo para los errores */
+    margin-top: 10px;
+}
+
+.result {
+    font-weight: bold; /* Negrita para el resultado de la conversión */
+    margin-top: 20px;
+}
+
+.chart-container {
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
