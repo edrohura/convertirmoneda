@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/convertirmoneda/static/css/main.45479310.css",
+    "main.js": "/convertirmoneda/static/js/main.c2dc1556.js",
+    "static/js/453.d6afd346.chunk.js": "/convertirmoneda/static/js/453.d6afd346.chunk.js",
+    "index.html": "/convertirmoneda/index.html",
+    "main.45479310.css.map": "/convertirmoneda/static/css/main.45479310.css.map",
+    "main.c2dc1556.js.map": "/convertirmoneda/static/js/main.c2dc1556.js.map",
+    "453.d6afd346.chunk.js.map": "/convertirmoneda/static/js/453.d6afd346.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45479310.css",
+    "static/js/main.c2dc1556.js"
+  ]
+}
